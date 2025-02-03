@@ -1,0 +1,18 @@
+.header {
+  border: solid 3px red;
+  background: black;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.item {
+  display: inline;
+  margin-left: 20px;
+  text-align: right;
+}
