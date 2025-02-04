@@ -1,6 +1,16 @@
+:root{
+  --padding-main: 15px;
+  --color-main: black;
+
+}
+
 .header {
-  border: solid 3px red;
-  background: black;
+  background: var(--color-main);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding-main);
+
 }
 
 .logo {
@@ -8,11 +18,60 @@
 }
 
 .nav {
-  display: inline-block;
+  
 }
 
 .item {
-  display: inline;
-  margin-left: 20px;
-  text-align: right;
+  
+}
+
+.list{
+  display:flex;
+  gap: 15px;
+  color: white;
+}
+
+.hero{
+  height: 50vh;
+  padding: var(--padding-main);
+  /* Poner color corporativo */
+  background-color: rgba(56, 56, 196, 0.664);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  background-image: url(../images/premium_dancer.png);
+}
+
+.info{
+  padding: var(--padding-main)
+}
+
+.info>h2,.article>h4,.article>p{
+  text-align: center;
+}
+.articles{
+  display:flex;
+  
+}
+
+/* .article{
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  align-content: center;;
+} */
+
+.footer{
+  display:flex;
+  justify-content: space-between;
+  padding: var(--padding-main);
+  background-color: black;
+  color: rgb(107, 106, 106);
+
+}
+
+.legal{
+  display:flex;
+  align-items: center;
+  gap: 15px;
 }
