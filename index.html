@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Spotify</title>
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/desktop.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/tablet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="body">
     <header class="header">
       <img class="logo" src="./images/logo.png" alt="Logo Spotify" />
       <nav class="nav">
@@ -24,37 +28,37 @@
     </header>
     <main class="main">
       <section class="hero">
-        <h1>Prueba Premium gratis 3 meses</h1>
-        <h3>
+        <h1 class="title">Prueba Premium gratis 3 meses</h1>
+        <h3 class="subtitle">
           Escucha millones de canciones sin anuncios, a la carta y sin conexión.
         </h3>
-        <button>Ver planes</button>
-        <p>
+        <button class="button">Ver planes</button>
+        <p class="conditions">
           Rigen términos y condiciones. Los tres meses gratis no están
           disponibles para usuarios que ya hayan probado Premium.
         </p>
       </section>
       <section class="info">
-        <h2>¿Por qué pasarte a Premium?</h2>
+        <h2 class="premium">¿Por qué pasarte a Premium?</h2>
         <section class="articles">
           <article class="article">
             <img src="./images/benefit-1.png" alt="Descarga" />
-            <h4>Descarga música.</h4>
+            <h4 class="feature">Descarga música.</h4>
             <p>Llévala siempre contigo.</p>
           </article>
           <article class="article">
             <img src="./images/benefit-2.png" alt="Sin anuncios" />
-            <h4>Sin anuncios.</h4>
+            <h4 class="feature">Sin anuncios.</h4>
             <p>Disfruta de música sin interrupciones.</p>
           </article>
           <article class="article">
             <img src="./images/benefit-3.png" alt="Escucha lo que quieras" />
-            <h4>Escucha lo que quieras.</h4>
+            <h4 class="feature">Escucha lo que quieras.</h4>
             <p>Incluso en el móvil.</p>
           </article>
           <article class="article">
             <img src="./images/benefit-4.png" alt="Salta todas las canciones" />
-            <h4>Salta todas las canciones que quieras.</h4>
+            <h4 class="feature">Salta todas las canciones que quieras.</h4>
             <p>Simplemente dale a siguiente.</p>
           </article>
         </section>
@@ -68,8 +72,8 @@
       </ul>
       <ul class="copy">
         <li>
-          <span>España</span>
-          <img src="./images/es.svg" alt="Bandera España" />
+          <span class="country">España</span>
+          <img class="flag" src="./images/es.svg" alt="Bandera España" />
         </li>
         <li>©2019 Spotify AB</li>
       </ul>

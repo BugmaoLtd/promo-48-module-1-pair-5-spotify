@@ -1,77 +1,128 @@
-:root{
+:root {
   --padding-main: 15px;
   --color-main: black;
+  --color-secondary: white;
+}
 
+.body {
+  font-family: "Roboto";
 }
 
 .header {
   background: var(--color-main);
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--padding-main);
-
+  position: sticky;
+  top: 0;
 }
 
 .logo {
   width: 150px;
 }
 
-.nav {
-  
-}
-
-.item {
-  
-}
-
-.list{
-  display:flex;
+.list {
+  display: flex;
   gap: 15px;
   color: white;
 }
 
-.hero{
+.hero {
   height: 50vh;
   padding: var(--padding-main);
   /* Poner color corporativo */
-  background-color: rgba(56, 56, 196, 0.664);
+  background-color: rgba(21, 143, 214, 0.897);
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
   background-image: url(../images/premium_dancer.png);
-}
-
-.info{
-  padding: var(--padding-main)
-}
-
-.info>h2,.article>h4,.article>p{
-  text-align: center;
-}
-.articles{
-  display:flex;
-  
-}
-
-/* .article{
   display: flex;
   flex-direction: column;
-  align-items: space-between;
-  align-content: center;;
-} */
+  justify-content: space-around;
+}
 
-.footer{
-  display:flex;
+.title {
+  color: var(--color-secondary);
+  font-size: 60px;
+  max-width: 75%;
+}
+
+.subtitle {
+  color: var(--color-secondary);
+  font-size: 25px;
+}
+
+.button {
+  width: 150px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: var(--color-secondary);
+  background-color: rgb(18, 189, 18);
+  border: 0;
+  border-radius: 18px;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.conditions {
+  color: var(--color-secondary);
+  font-size: 10px;
+}
+
+.info {
+  padding: 50px;
+}
+
+.premium {
+  font-size: 40px;
+}
+
+.info > .premium,
+.article > .feature,
+.article > p {
+  text-align: center;
+}
+.articles {
+  display: flex;
+  padding: 30px;
+}
+
+.feature {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
   justify-content: space-between;
   padding: var(--padding-main);
   background-color: black;
   color: rgb(107, 106, 106);
-
 }
 
-.legal{
-  display:flex;
-  align-items: center;
+.legal {
+  display: flex;
+  align-items: flex-end;
   gap: 15px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.flag {
+  height: 15px;
+}
+
+.country {
+  margin-right: 5px;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 12px;
+  font-weight: bold;
+  gap: 5px;
 }
