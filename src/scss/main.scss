@@ -1,3 +1,4 @@
+// Reset
 * {
   margin: 0;
   box-sizing: border-box;
@@ -11,6 +12,7 @@ a {
   color: inherit;
 }
 
+// Desktop
 :root {
   --padding-main: 15px;
   --color-main: black;
@@ -151,6 +153,7 @@ a {
   gap: 5px;
 }
 
+// Tablet
 @media (max-width: 1024px) {
   .articles {
     flex-wrap: wrap;
