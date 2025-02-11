@@ -1,4 +1,4 @@
-@use '../core/variables' as vars;
+@use "../core/variables" as vars;
 
 .header {
   background: vars.$color-main;
@@ -9,14 +9,14 @@
   padding: vars.$padding-main;
   position: sticky;
   top: 0;
-}
 
-.logo {
-  width: 150px;
-}
+  &__logo {
+    width: 150px;
+  }
 
-.list {
-  display: flex;
-  gap: 15px;
-  color: white;
+  &__list {
+    display: flex;
+    gap: 15px;
+    color: white;
+  }
 }

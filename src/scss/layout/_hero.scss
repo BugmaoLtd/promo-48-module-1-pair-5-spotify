@@ -1,32 +1,30 @@
-@use '../core/variables' as vars;
+@use "../core/variables" as vars;
 
 .hero {
-    height: 50vh;
-    padding: vars.$padding-main;
-    font-family: vars.$main-font;
-    /* Poner color corporativo */
-    background-color: rgba(21, 143, 214, 0.897);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    background-image: url(../images/premium_dancer.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  
-  .title {
+  height: 50vh;
+  padding: vars.$padding-main;
+  font-family: vars.$main-font;
+  background-color: rgba(21, 143, 214, 0.897);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  background-image: url(../images/premium_dancer.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  &__title {
     color: vars.$color-secondary;
     font-size: 60px;
     max-width: 75%;
   }
-  
-  .subtitle {
+
+  &__subtitle {
     color: vars.$color-secondary;
     font-size: 25px;
   }
-  
-  .button {
+
+  &__button {
     width: 150px;
     font-size: 12px;
     text-align: center;
@@ -38,8 +36,9 @@
     padding: 15px;
     text-transform: uppercase;
   }
-  
-  .conditions {
+
+  &__conditions {
     color: vars.$color-secondary;
     font-size: 10px;
   }
+}
