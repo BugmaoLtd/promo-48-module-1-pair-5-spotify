@@ -1,10 +1,36 @@
-@use '../core/variables' as vars;
+@use "../core/variables" as vars;
 
-.page__footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100vw;
-    padding: 1rem;
-    color: vars.$color-secondary;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: vars.$padding-main;
+  background-color: vars.$color-main;
+  font-family: vars.$main-font;
+  color: rgb(107, 106, 106);
+}
+
+.legal {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.flag {
+  height: 15px;
+}
+
+.country {
+  margin-right: 5px;
+}
+
+.copy {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 12px;
+  font-weight: bold;
+  gap: 5px;
 }

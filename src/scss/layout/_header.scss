@@ -1,5 +1,22 @@
-.page__header {
+@use '../core/variables' as vars;
+
+.header {
+  background: vars.$color-main;
+  font-family: vars.$main-font;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: vars.$padding-main;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  width: 150px;
+}
+
+.list {
+  display: flex;
+  gap: 15px;
+  color: white;
 }

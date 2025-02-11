@@ -1,0 +1,35 @@
+@use '../core/variables' as vars;
+
+.info {
+    padding: 50px;
+    font-family: vars.$main-font;
+  }
+  
+  .premium {
+    font-size: 40px;
+  }
+  
+  .article {
+    text-align: center;
+  }
+  
+  .articles {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feature {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .container-image {
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .container-image img {
+    width: 100%;
+  }
