@@ -1,0 +1,103 @@
+<section class="signup">
+  <h1>Spotify</h1>
+  <!-- <div class="container-img">
+    <img src="../images/logo.png" alt="Logo Spotify" />
+  </div> -->
+  <h1>Regístrate gratis para escuchar.</h1>
+  <button>Registrarte con Facebook</button>
+  <button>Registrarte con Google</button>
+  <!-- ___o____ -->
+  <form class="form" action="https://formspree.io/f/mqaedwkr" method="GET">
+    <legend>Registrarte con tu correo electrónico</legend>
+    <label for="email">¿Cuál es tu correo electrónico?</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="Pon tu correo electrónico."
+    />
+    <label for="confirm-email">Confirma el correo electrónico</label>
+    <input
+      type="email"
+      id="confirm-email"
+      name="confirm-email"
+      placeholder="Vuelve a poner tu correo electrónico."
+    />
+    <label for="password">Crea una contraseña</label>
+    <input
+      type="password"
+      id="password"
+      name="password"
+      placeholder="Crea una contraseña."
+    />
+    <label for="name">¿Cómo quieres que te llamemos?</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      placeholder="Pon un nombre de perfil."
+    />
+    <p>Esto aparece en tu perfil</p>
+    <h4>¿Cuál es tu fecha de nacimiento?</h4>
+    <label for="day">Día</label>
+    <input
+      type="number"
+      name="day"
+      id="day"
+      min="1"
+      max="31"
+      placeholder="DD"
+    />
+    <label for="month">Mes</label>
+    <select name="month" id="month">
+      <option value="">Mes</option>
+      <option value="1">Enero</option>
+      <option value="2">Febrero</option>
+      <option value="3">Marzo</option>
+      <option value="4">Abril</option>
+      <option value="5">Mayo</option>
+      <option value="6">Junio</option>
+      <option value="7">Julio</option>
+      <option value="8">Agosto</option>
+      <option value="9">Setiembre</option>
+      <option value="10">Octubre</option>
+      <option value="11">Noviembre</option>
+      <option value="12">Diciembre</option>
+    </select>
+    <label for="year">Año</label>
+    <input
+      type="number"
+      name="year"
+      id="year"
+      min="1900"
+      max="2025"
+      placeholder="AAAA"
+    />
+    <h4>¿Cuál es tu género?</h4>
+    <label for="gender">
+      <input type="radio" id="gender" name="gender" value="w" />
+      Mujer
+    </label>
+    <label for="gender">
+      <input type="radio" id="gender" name="gender" value="m" />
+      Hombre
+    </label>
+    <label for="gender">
+      <input type="radio" id="gender" name="gender" value="nb" />
+      No binario
+    </label>
+    <label for="newsletter">
+      <input type="checkbox" id="newsletter" name="newsletter" value="yes" />
+      Quiero que me enviéis novedades y ofertas de Spotify
+    </label>
+    <label for="share-data">
+      <input type="checkbox" id="share-data" name="share-data" value="yes" />
+      Compartir mis datos de registro con los proveedores de contenidos de
+      Spotify para fines de marketing. Ten en cuenta que tus datos pueden ser
+      transferidos a un país fuera del EEE, tal y como se recoge en nuestra
+      Política de Privacidad.
+    </label>
+    <button type="submit">Registrarte</button>
+  </form>
+  <p>¿Ya tienes cuenta? <a href="https://accounts.spotify.com/es/login">Inicia sesión</a>.</p>
+</section>
